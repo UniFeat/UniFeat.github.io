@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- SITE TITTLE -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UniFeat | Feature Selection Algorithms</title>
+  
+  <!-- PLUGINS CSS STYLE -->
+  <!-- Bootstrap -->
+  <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="plugins/font-awsome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Magnific Popup -->
+  <link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <!-- Slick Carousel -->
+  <link href="plugins/slick/slick.css" rel="stylesheet">
+  <link href="plugins/slick/slick-theme.css" rel="stylesheet">
+  <!-- CUSTOM CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- FAVICON -->
+  <link href="images/favicon.png" rel="shortcut icon">
+
+</head>
+
+<body class="body-wrapper">
+
+
+<!--========================================
+=            Navigation Section            =
+=========================================-->
+
+<nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
+  <div class="container-fluid p-0">
+      <!-- logo -->
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fa fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+		<li class="nav-item">
+			<a class="nav-link" href="index.html">Home
+			  <span>/</span>
+			</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="software.html">Software
+			  <span>/</span>
+			</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="documentation.html">Documentation
+			  <span>/</span>
+			</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="algorithms.html">Algorithms
+			  <span>/</span>
+			</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="datasets.html">Datasets
+			  <span>/</span>
+			</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="people.html">People
+			</a>
+		</li>
+      </ul>
+      </div>
+  </div>
+</nav>
+
+<!--====  End of Navigation Section  ====-->
+
+
+
+
+<!--================================
+=            Page Title            =
+=================================-->
+
+<section class="page-title bg-title overlay-dark">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<div class="title">
+					<h3>Algorithms</h3>
+				</div>
+				<ol class="breadcrumb p-0 m-0">
+				  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				  <li class="breadcrumb-item active">Algorithms</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Page Title  ====-->
+
+
+<!--==============================
+=            Schedule            =
+===============================-->
+
+<section class="section schedule">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title">
+					<h3><span class="alternate">Feature Selection</span> Algorithms</h3>
+					<p>UniFeat is a collection of well-known and state-of-the-art feature selection methods. 
+						The description of the current feature selection methods in the repository of UniFeat is listed in the following table.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="schedule-tab">
+					<ul class="nav nav-pills text-center">
+					  <li class="nav-item">
+					    <a class="nav-link active" href="#nov20" data-toggle="pill">
+					    	Version 0.1.0
+					    	<span>April 2022</span>
+					    </a>
+					  </li>
+					</ul>
+				</div>
+				<div class="schedule-contents bg-schedule">
+					<div class="tab-content" id="pills-tabContent">
+					  <div class="tab-pane fade show active schedule-item" id="nov20">
+					  	<!-- Headings -->
+					  	<ul class="m-0 p-0">
+					  		<li class="headings">
+					  			<div class="method">Method</div>
+								<div class="approach">Filter / Wrapper / Embedded</div>
+					  			<div class="learning">Supervised / Unsupervised</div>
+					  			<div class="reference">Reference</div>
+					  		</li>
+							<!-- Method Details -->
+					  		<li class="schedule-details">
+					  			<div class="block">
+									<div class="method">
+										<span class="name">Information gain</span>
+									  </div>
+									<div class="approach">Filter</div>
+									<div class="learning">Supervised</div>
+									<div class="reference">
+										<a target="_blank" href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/mlbook.html">M. Mitchell, "Machine Learning"</a>.
+									</div>
+					  			</div>
+					  		</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Gain ratio</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/mlbook.html">M. Mitchell, "Machine Learning"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Symmetrical uncertainty</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://dl.acm.org/citation.cfm?id=1207436">H. Liu and H. Motoda, "Computational methods of feature selection"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Fisher score</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://arxiv.org/abs/1202.3725">Q. Gu, Z. Li, and J. Han, "Generalized fisher score for feature selection"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Gini index</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://www.sciencedirect.com/science/article/pii/S095741740600114X">W. Shang, H. Huang, H. Zhu, Y. Lin, Y. Qu, and Z. Wang, "A novel feature selection algorithm for text categorization"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">mRMR</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1453511&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1453511">H. Peng, F. Long, and C. Ding, "Feature selection based on mutual information criteria of max-dependency, max-relevance, and min-redundancy"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Laplacian score</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Supervised & Unsupervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://papers.nips.cc/paper/2909-laplacian-score-for-feature-selection">X. He, D. Cai, and P. Niyogi, "Laplacian score for feature selection"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">RRFS</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Supervised & Unsupervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0031320311005097">A. J. Ferreira and M. A. T. Figueiredo, "An unsupervised approach to feature discretization and selection"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Term variance</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Unsupervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://www.sciencedirect.com/science/book/9781597492720">S. Theodoridis and K. Koutroumbas, "Pattern Recognition"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Mutual correlation</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Unsupervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://link.springer.com/chapter/10.1007%2F11892755_59">M. Haindl, P. Somol, D. Ververidis, and C. Kotropoulos, "Feature selection based on mutual correlation"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Random subspace method</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Unsupervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0167865505003752">C. Lai, M. J. T. Reinders, and L. Wessels, "Random subspace method for multivariate feature selection"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">UFSACO</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Unsupervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0952197614000621">S. Tabakhi, P. Moradi, and F. Akhlaghian, "An unsupervised feature selection algorithm based on ant colony optimization"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">RRFSACO_1</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Unsupervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0031320315001211">S. Tabakhi and P. Moradi, "Relevance–redundancy feature selection based on ant colony optimization"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">RRFSACO_2</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Unsupervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0031320315001211">S. Tabakhi and P. Moradi, "Relevance–redundancy feature selection based on ant colony optimization"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">IRRFSACO_1</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Unsupervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0031320315001211">S. Tabakhi and P. Moradi, "Relevance–redundancy feature selection based on ant colony optimization"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">IRRFSACO_2</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Unsupervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0031320315001211">S. Tabakhi and P. Moradi, "Relevance–redundancy feature selection based on ant colony optimization"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">MGSACO</span>
+								  </div>
+								  <div class="approach">Filter</div>
+								  <div class="learning">Unsupervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0925231215006451">S. Tabakhi, A. Najafi, R. Ranjbar, and P. Moradi, "Gene selection for microarray data classification using a novel ant colony optimization"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Binary particle swarm optimization (BPSO)</span>
+								  </div>
+								  <div class="approach">Wrapper</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://researcharchive.vuw.ac.nz/xmlui/handle/10063/3198">B. Xue, "Particle Swarm Optimisation for Feature Selection [Ph.D thesis]"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Continuous particle swarm optimization (CPSO)</span>
+								  </div>
+								  <div class="approach">Wrapper</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://researcharchive.vuw.ac.nz/xmlui/handle/10063/3198">B. Xue, "Particle Swarm Optimisation for Feature Selection [Ph.D thesis]"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Particle swarm optimization version 4-2 (PSO(4-2))</span>
+								  </div>
+								  <div class="approach">Wrapper</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1568494613003128">B. Xue, M. Zhang, and W. N. Browne, "Particle swarm optimisation for feature selection in classification: Novel initialisation and updating mechanisms"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">HPSO-LS</span>
+								  </div>
+								  <div class="approach">Wrapper</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1568494616300321">P. Moradi and M. Gholampour, "A hybrid particle swarm optimization for feature subset selection by integrating a novel local search strategy"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Simple GA</span>
+								  </div>
+								  <div class="approach">Wrapper</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="https://open.library.ubc.ca/cIRcle/collections/ubctheses/831/items/1.0065127">F. T. Hussein, "Genetic algorithm for feature selection and weighting for off-line character recognition"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">HGAFS</span>
+								  </div>
+								  <div class="approach">Wrapper</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0925231211002748">Md. M. Kabir, Md. Shahjahan, and K. Murase, "A new local search based hybrid genetic algorithm for feature selection"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Optimal ACO</span>
+								  </div>
+								  <div class="approach">Wrapper</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0957417408005459">M. H. Aghdam, N. Ghasem-Aghaee, and M. E. Basiri, "Text feature selection using ant colony optimization"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Decision tree based method</span>
+								  </div>
+								  <div class="approach">Embedded</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-540-35488-8_6">T. N. Lal, O. Chapelle, J. Weston, and A. Elisseeff, "Embedded Methods"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">Random forest</span>
+								  </div>
+								  <div class="approach">Embedded</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="https://link.springer.com/article/10.1023/A:1010933404324">L. Breiman, "Random Forests"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">SVM_RFE</span>
+								  </div>
+								  <div class="approach">Embedded</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="https://link.springer.com/article/10.1023/A:1012487302797">I. GUYON, J. WESTON, S. BARNHILL, and V. VAPNIK, "Gene Selection for Cancer Classification using Support Vector Machines"</a>.
+								  </div>
+								</div>
+							</li>
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">MSVM_RFE</span>
+								  </div>
+								  <div class="approach">Embedded</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="http://ieeexplore.ieee.org/document/1501840/?anchor=authors">K. B. Duan, J. C. Rajapakse, H. Wang, and F. Azuaje, "Multiple SVM-RFE for Gene Selection in Cancer Classification With Expression Data"</a>.
+								  </div>
+								</div>
+							</li>							
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">OVO_SVM_RFE</span>
+								  </div>
+								  <div class="approach">Embedded</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-540-71783-6_5">K. B. Duan, J. C. Rajapakse, and M. N. Nguyen, "One-Versus-One and One-Versus-All Multiclass SVM-RFE for Gene Selection in Cancer Classification"</a>.
+								  </div>
+								</div>
+							</li>	
+							<!-- Method Details -->
+							<li class="schedule-details">
+								<div class="block">
+								  <div class="method">
+									<span class="name">OVA_SVM_RFE</span>
+								  </div>
+								  <div class="approach">Embedded</div>
+								  <div class="learning">Supervised</div>
+								  <div class="reference">
+									  <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-540-71783-6_5">K. B. Duan, J. C. Rajapakse, and M. N. Nguyen, "One-Versus-One and One-Versus-All Multiclass SVM-RFE for Gene Selection in Cancer Classification"</a>.
+								  </div>
+								</div>
+							</li>	
+					  	</ul>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Schedule  ====-->
+
+
+<!-- Subfooter -->
+<footer class="subfooter">
+	<div class="container">
+	  <div class="row">
+		<div class="col-md-6 align-self-center">
+		  <div class="copyright-text">
+			  <p>&#169; 2022 <a href="index.html">UniFeat</a>.</p>
+		  </div>
+		</div>
+		<div class="col-md-6">
+			<a href="#" class="to-top"><i class="fa fa-angle-up"></i></a>
+		</div>
+	  </div>
+	</div>
+  </footer>
+
+
+  <!-- JAVASCRIPTS -->
+  <!-- jQuey -->
+  <script src="plugins/jquery/jquery.js"></script>
+  <!-- Popper js -->
+  <script src="plugins/popper/popper.min.js"></script>
+  <!-- Bootstrap 4 -->
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Smooth Scroll -->
+  <script src="plugins/smoothscroll/SmoothScroll.min.js"></script>  
+  <!-- Isotope -->
+  <script src="plugins/isotope/mixitup.min.js"></script>  
+  <!-- Magnific Popup -->
+  <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Slick Carousel -->
+  <script src="plugins/slick/slick.min.js"></script>  
+  <!-- SyoTimer -->
+  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+  <!-- Custom Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
