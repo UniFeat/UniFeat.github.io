@@ -625,6 +625,10 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 
+.main-nav .navbar-nav .nav-item .nav-link:hover {
+  color: #ff6600;
+}
+
 .main-nav .navbar-nav .nav-item .nav-link span {
   color: #222222;
   margin-left: 20px;
