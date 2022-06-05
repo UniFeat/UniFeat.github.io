@@ -1,439 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-  <!-- SITE TITTLE -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>UniFeat | Feature Selection Algorithms</title>
-  
-  <!-- PLUGINS CSS STYLE -->
-  <!-- Bootstrap -->
-  <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link href="plugins/font-awsome/css/font-awesome.min.css" rel="stylesheet">
-  <!-- Magnific Popup -->
-  <link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
-  <!-- Slick Carousel -->
-  <link href="plugins/slick/slick.css" rel="stylesheet">
-  <link href="plugins/slick/slick-theme.css" rel="stylesheet">
-  <!-- CUSTOM CSS -->
-  <link href="css/style.css" rel="stylesheet">
+	<!-- SITE TITTLE -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>UniFeat | Datasets</title>
 
-  <!-- FAVICON -->
-  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="images/favicons/site.webmanifest">
+	<!-- PLUGINS CSS STYLE -->
+	<!-- Bootstrap -->
+	<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link href="plugins/font-awsome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Magnific Popup -->
+	<link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+	<!-- Slick Carousel -->
+	<link href="plugins/slick/slick.css" rel="stylesheet">
+	<link href="plugins/slick/slick-theme.css" rel="stylesheet">
+	<!-- CUSTOM CSS -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- FAVICON -->
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="images/favicons/site.webmanifest">
 
 </head>
 
 <body class="body-wrapper">
 
 
-<!--========================================
+	<!--========================================
 =            Navigation Section            =
 =========================================-->
 
-<nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
-  <div class="container-fluid p-0">
-      <!-- logo -->
-      <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" alt="logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="fa fa-bars"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
-		<li class="nav-item">
-			<a class="nav-link" href="index.html">Home
-			  <span>/</span>
+	<nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
+		<div class="container-fluid p-0">
+			<!-- logo -->
+			<a class="navbar-brand" href="index.html">
+				<img src="images/logo.png" alt="logo">
 			</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="software.html">Software
-			  <span>/</span>
-			</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="documentation.html">Documentation
-			  <span>/</span>
-			</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="algorithms.html">Algorithms
-			  <span>/</span>
-			</a>
-		</li>
-		<li class="nav-item active">
-			<a class="nav-link" href="datasets.html">Datasets
-			  <span>/</span>
-			</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="people.html">People
-			</a>
-		</li>
-      </ul>
-      </div>
-  </div>
-</nav>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home
+							<span>/</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="software.html">Software
+							<span>/</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="documentation.html">Documentation
+							<span>/</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="algorithms.html">Algorithms
+							<span>/</span>
+						</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="datasets.html">Datasets
+							<span>/</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="people.html">People
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-<!--====  End of Navigation Section  ====-->
+	<!--====  End of Navigation Section  ====-->
 
 
 
 
-<!--================================
+	<!--================================
 =            Page Title            =
 =================================-->
 
-<section class="page-title bg-title overlay-dark">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 text-center">
-				<div class="title">
-					<h3>Datasets</h3>
+	<section class="page-title bg-title overlay-dark">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<div class="title">
+						<h3>Datasets</h3>
+					</div>
+					<ol class="breadcrumb p-0 m-0">
+						<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+						<li class="breadcrumb-item active">Datasets</li>
+					</ol>
 				</div>
-				<ol class="breadcrumb p-0 m-0">
-				  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-				  <li class="breadcrumb-item active">Datasets</li>
-				</ol>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
-<!--====  End of Page Title  ====-->
+	<!--====  End of Page Title  ====-->
 
 
-<!--==============================
+	<!--==============================
 =            Schedule            =
 ===============================-->
 
-<section class="section schedule">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="section-title">
-					<h3><span class="alternate">Dataset</span> Format</h3>
-					<p>Since UniFeat supports a specific format for the datasets, a list of converted datasets to UniFeat format has been provided in the following table. 
-						For each dataset, a brief description of the dataset, a link to the original source of the dataset, and a link to download the dataset in UniFeat format are provided. 
-						Some of the presented datasets have several missing values in the features. 
-						To resolve this challenge, the missing values have been completed using the mean of the available data of the respective feature.
-					</p>
-					<p>
-						UniFeat supports two types of dataset files. In the first type, the dataset file consists of all the samples. 
-						In the second type, the datasets are initially divided into training and test sets.
-					</p>
+	<section class="section schedule">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-title">
+						<h3><span class="alternate">Dataset</span> Format</h3>
+						<p>A list of converted datasets to UniFeat format has been provided in the following table.
+							For each dataset, a brief description of the dataset, a link to the original source of the
+							dataset, and a link to download the dataset in UniFeat format are provided.
+						</p>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-12">
-				<div class="schedule-contents bg-schedule">
-					<div class="tab-content" id="pills-tabContent">
-					  <div class="tab-pane fade show active schedule-item" id="nov20">
-					  	<!-- Headings -->
-					  	<ul class="m-0 p-0">
-					  		<li class="headings">
-					  			<div class="dataset">Dataset</div>
-								<div class="nfeature">#Features</div>
-								<div class="nclass">#Classes</div>
-								<div class="npattern">#Patterns</div>
-								<div class="originsource">Original Source</div>
-								<div class="formatlink">UniFeat Format</div>
-					  		</li>
-							<!-- Dataset Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-									<div class="dataset"><span class="name">Glass</span></div>
-									<div class="nfeature">9</div>
-									<div class="nclass">6</div>
-									<div class="npattern">214</div>
-									<div class="originsource">
-										<a target="_blank" href="https://archive.ics.uci.edu/ml/datasets/Glass+Identification">UCI</a>
-									</div>
-									<div class="formatlink">
-										<a target="_blank" href="https://github.com/UniFeat/data/tree/main/Glass">Download</a>
-									</div>
-					  			</div>
-					  		</li>
-							<!-- Dataset Details -->
-					  		<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">Wine</span></div>
-								  <div class="nfeature">13</div>
-								  <div class="nclass">3</div>
-								  <div class="npattern">178</div>
-								  <div class="originsource">
-									  <a target="_blank" href="https://archive.ics.uci.edu/ml/datasets/Wine">UCI</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/Wine">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-					  		<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">Hepatitis</span></div>
-								  <div class="nfeature">19</div>
-								  <div class="nclass">2</div>
-								  <div class="npattern">155</div>
-								  <div class="originsource">
-									  <a target="_blank" href="https://archive.ics.uci.edu/ml/datasets/Hepatitis">UCI</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/Hepatitis">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-							<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">WDBC</span></div>
-								  <div class="nfeature">30</div>
-								  <div class="nclass">2</div>
-								  <div class="npattern">569</div>
-								  <div class="originsource">
-									  <a target="_blank" href="https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29">UCI</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/WDBC">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-					  		<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">Ionosphere</span></div>
-								  <div class="nfeature">34</div>
-								  <div class="nclass">2</div>
-								  <div class="npattern">351</div>
-								  <div class="originsource">
-									  <a target="_blank" href="https://archive.ics.uci.edu/ml/datasets/Ionosphere">UCI</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/Ionosphere">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-							<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">Dermatology</span></div>
-								  <div class="nfeature">34</div>
-								  <div class="nclass">6</div>
-								  <div class="npattern">366</div>
-								  <div class="originsource">
-									  <a target="_blank" href="https://archive.ics.uci.edu/ml/datasets/Dermatology">UCI</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/Dermatology">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-					  		<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">SpamBase</span></div>
-								  <div class="nfeature">57</div>
-								  <div class="nclass">2</div>
-								  <div class="npattern">4601</div>
-								  <div class="originsource">
-									  <a target="_blank" href="https://archive.ics.uci.edu/ml/datasets/Spambase">UCI</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/SpamBase">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-							<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">Sonar</span></div>
-								  <div class="nfeature">60</div>
-								  <div class="nclass">2</div>
-								  <div class="npattern">208</div>
-								  <div class="originsource">
-									  <a target="_blank" href="https://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+%28Sonar%2C+Mines+vs.+Rocks%29">UCI</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/Sonar">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-					  		<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">Arrhythmia</span></div>
-								  <div class="nfeature">279</div>
-								  <div class="nclass">16</div>
-								  <div class="npattern">452</div>
-								  <div class="originsource">
-									  <a target="_blank" href="https://archive.ics.uci.edu/ml/datasets/Arrhythmia">UCI</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/Arrhythmia">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-							<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">Madelon</span></div>
-								  <div class="nfeature">500</div>
-								  <div class="nclass">2</div>
-								  <div class="npattern">4400</div>
-								  <div class="originsource">
-									  <a target="_blank" href="http://clopinet.com/isabelle/Projects/NIPS2003/">NIPS2003</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/Madelon">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-							<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">Colon</span></div>
-								  <div class="nfeature">2000</div>
-								  <div class="nclass">2</div>
-								  <div class="npattern">62</div>
-								  <div class="originsource">
-									  <a target="_blank" href="http://eps.upo.es/bigs/datasets.html">UPO</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/Colon">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-							<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">SRBCT</span></div>
-								  <div class="nfeature">2308</div>
-								  <div class="nclass">4</div>
-								  <div class="npattern">83</div>
-								  <div class="originsource">
-									  <a target="_blank" href="http://www.gems-system.org/">GEMS</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/SRBCT">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-							<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">Leukemia</span></div>
-								  <div class="nfeature">7129</div>
-								  <div class="nclass">2</div>
-								  <div class="npattern">72</div>
-								  <div class="originsource">
-									  <a target="_blank" href="http://eps.upo.es/bigs/datasets.html">UPO</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/Leukemia">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-							<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">Arcene</span></div>
-								  <div class="nfeature">10000</div>
-								  <div class="nclass">2</div>
-								  <div class="npattern">900</div>
-								  <div class="originsource">
-									  <a target="_blank" href="http://clopinet.com/isabelle/Projects/NIPS2003/">NIPS2003</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/Arcene">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-							<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">Prostate Tumor</span></div>
-								  <div class="nfeature">10509</div>
-								  <div class="nclass">2</div>
-								  <div class="npattern">102</div>
-								  <div class="originsource">
-									  <a target="_blank" href="http://www.gems-system.org/">GEMS</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/Prostate_Tumor">Download</a>
-								  </div>
-								</div>
-							</li>
-							<!-- Dataset Details -->
-							<li class="schedule-details">
-								<div class="block">
-								  <div class="dataset"><span class="name">Lung Cancer</span></div>
-								  <div class="nfeature">12600</div>
-								  <div class="nclass">5</div>
-								  <div class="npattern">203</div>
-								  <div class="originsource">
-									  <a target="_blank" href="http://www.gems-system.org/">GEMS</a>
-								  </div>
-								  <div class="formatlink">
-									  <a target="_blank" href="https://github.com/UniFeat/data/tree/main/Lung_Cancer">Download</a>
-								  </div>
-								</div>
-							</li>
-					  	</ul>
-					  </div>
+			<div class="row">
+				<div class="col-12">
+					<div class="schedule-contents bg-schedule">
+						<div class="tab-content" id="pills-tabContent">
+							<div class="tab-pane fade show active schedule-item" id="nov20">
+								<!-- Headings -->
+								<ul class="m-0 p-0">
+									<li class="headings">
+										<div class="dataset">Dataset</div>
+										<div class="nfeature">#Features</div>
+										<div class="nclass">#Classes</div>
+										<div class="npattern">#Patterns</div>
+										<div class="originsource">Original Source</div>
+										<div class="formatlink">UniFeat Format</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">Glass</span></div>
+											<div class="nfeature">9</div>
+											<div class="nclass">6</div>
+											<div class="npattern">214</div>
+											<div class="originsource">
+												<a target="_blank"
+													href="https://archive.ics.uci.edu/ml/datasets/Glass+Identification">UCI</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/Glass">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">Wine</span></div>
+											<div class="nfeature">13</div>
+											<div class="nclass">3</div>
+											<div class="npattern">178</div>
+											<div class="originsource">
+												<a target="_blank"
+													href="https://archive.ics.uci.edu/ml/datasets/Wine">UCI</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/Wine">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">Hepatitis</span></div>
+											<div class="nfeature">19</div>
+											<div class="nclass">2</div>
+											<div class="npattern">155</div>
+											<div class="originsource">
+												<a target="_blank"
+													href="https://archive.ics.uci.edu/ml/datasets/Hepatitis">UCI</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/Hepatitis">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">WDBC</span></div>
+											<div class="nfeature">30</div>
+											<div class="nclass">2</div>
+											<div class="npattern">569</div>
+											<div class="originsource">
+												<a target="_blank"
+													href="https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29">UCI</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/WDBC">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">Ionosphere</span></div>
+											<div class="nfeature">34</div>
+											<div class="nclass">2</div>
+											<div class="npattern">351</div>
+											<div class="originsource">
+												<a target="_blank"
+													href="https://archive.ics.uci.edu/ml/datasets/Ionosphere">UCI</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/Ionosphere">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">Dermatology</span></div>
+											<div class="nfeature">34</div>
+											<div class="nclass">6</div>
+											<div class="npattern">366</div>
+											<div class="originsource">
+												<a target="_blank"
+													href="https://archive.ics.uci.edu/ml/datasets/Dermatology">UCI</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/Dermatology">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">SpamBase</span></div>
+											<div class="nfeature">57</div>
+											<div class="nclass">2</div>
+											<div class="npattern">4601</div>
+											<div class="originsource">
+												<a target="_blank"
+													href="https://archive.ics.uci.edu/ml/datasets/Spambase">UCI</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/SpamBase">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">Sonar</span></div>
+											<div class="nfeature">60</div>
+											<div class="nclass">2</div>
+											<div class="npattern">208</div>
+											<div class="originsource">
+												<a target="_blank"
+													href="https://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+%28Sonar%2C+Mines+vs.+Rocks%29">UCI</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/Sonar">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">Arrhythmia</span></div>
+											<div class="nfeature">279</div>
+											<div class="nclass">16</div>
+											<div class="npattern">452</div>
+											<div class="originsource">
+												<a target="_blank"
+													href="https://archive.ics.uci.edu/ml/datasets/Arrhythmia">UCI</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/Arrhythmia">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">Madelon</span></div>
+											<div class="nfeature">500</div>
+											<div class="nclass">2</div>
+											<div class="npattern">4400</div>
+											<div class="originsource">
+												<a target="_blank"
+													href="http://clopinet.com/isabelle/Projects/NIPS2003/">NIPS2003</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/Madelon">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">Colon</span></div>
+											<div class="nfeature">2000</div>
+											<div class="nclass">2</div>
+											<div class="npattern">62</div>
+											<div class="originsource">
+												<a target="_blank" href="http://eps.upo.es/bigs/datasets.html">UPO</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/Colon">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">SRBCT</span></div>
+											<div class="nfeature">2308</div>
+											<div class="nclass">4</div>
+											<div class="npattern">83</div>
+											<div class="originsource">
+												<a target="_blank" href="http://www.gems-system.org/">GEMS</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/SRBCT">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">Leukemia</span></div>
+											<div class="nfeature">7129</div>
+											<div class="nclass">2</div>
+											<div class="npattern">72</div>
+											<div class="originsource">
+												<a target="_blank" href="http://eps.upo.es/bigs/datasets.html">UPO</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/Leukemia">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">Arcene</span></div>
+											<div class="nfeature">10000</div>
+											<div class="nclass">2</div>
+											<div class="npattern">900</div>
+											<div class="originsource">
+												<a target="_blank"
+													href="http://clopinet.com/isabelle/Projects/NIPS2003/">NIPS2003</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/Arcene">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">Prostate Tumor</span></div>
+											<div class="nfeature">10509</div>
+											<div class="nclass">2</div>
+											<div class="npattern">102</div>
+											<div class="originsource">
+												<a target="_blank" href="http://www.gems-system.org/">GEMS</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/Prostate_Tumor">Download</a>
+											</div>
+										</div>
+									</li>
+									<!-- Dataset Details -->
+									<li class="schedule-details">
+										<div class="block">
+											<div class="dataset"><span class="name">Lung Cancer</span></div>
+											<div class="nfeature">12600</div>
+											<div class="nclass">5</div>
+											<div class="npattern">203</div>
+											<div class="originsource">
+												<a target="_blank" href="http://www.gems-system.org/">GEMS</a>
+											</div>
+											<div class="formatlink">
+												<a target="_blank"
+													href="https://github.com/UniFeat/data/tree/main/Lung_Cancer">Download</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
-<!--====  End of Schedule  ====-->
+	<!--====  End of Schedule  ====-->
 
 
-<!-- Subfooter -->
-<footer class="subfooter">
-	<div class="container">
-	  <div class="row">
-		<div class="col-md-6 align-self-center">
-		  <div class="copyright-text">
-			  <p>&#169; 2022 <a href="index.html">UniFeat</a>.</p>
-		  </div>
+	<!-- Subfooter -->
+	<footer class="subfooter">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 align-self-center">
+					<div class="copyright-text">
+						<p>&#169; 2022 <a href="index.html">UniFeat</a>.</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<a href="#" class="to-top"><i class="fa fa-angle-up"></i></a>
+				</div>
+			</div>
 		</div>
-		<div class="col-md-6">
-			<a href="#" class="to-top"><i class="fa fa-angle-up"></i></a>
-		</div>
-	  </div>
-	</div>
-  </footer>
+	</footer>
 
 
-  <!-- JAVASCRIPTS -->
-  <!-- jQuey -->
-  <script src="plugins/jquery/jquery.js"></script>
-  <!-- Popper js -->
-  <script src="plugins/popper/popper.min.js"></script>
-  <!-- Bootstrap 4 -->
-  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-  <!-- Smooth Scroll -->
-  <script src="plugins/smoothscroll/SmoothScroll.min.js"></script>  
-  <!-- Isotope -->
-  <script src="plugins/isotope/mixitup.min.js"></script>  
-  <!-- Magnific Popup -->
-  <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-  <!-- Slick Carousel -->
-  <script src="plugins/slick/slick.min.js"></script>  
-  <!-- SyoTimer -->
-  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
-  <!-- Custom Script -->
-  <script src="js/custom.js"></script>
+	<!-- JAVASCRIPTS -->
+	<!-- jQuey -->
+	<script src="plugins/jquery/jquery.js"></script>
+	<!-- Popper js -->
+	<script src="plugins/popper/popper.min.js"></script>
+	<!-- Bootstrap 4 -->
+	<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Smooth Scroll -->
+	<script src="plugins/smoothscroll/SmoothScroll.min.js"></script>
+	<!-- Isotope -->
+	<script src="plugins/isotope/mixitup.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<!-- Slick Carousel -->
+	<script src="plugins/slick/slick.min.js"></script>
+	<!-- SyoTimer -->
+	<script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+	<!-- Custom Script -->
+	<script src="js/custom.js"></script>
 </body>
 
 </html>
