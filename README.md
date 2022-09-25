@@ -13,9 +13,9 @@
 # Universal Feature Selection Tool (UniFeat)
 This is the official website for the Universal Feature Selection Tool (UniFeat) project. We have provided a user manual for the tool that is publicly accessible for end-users and can be downloaded from the following link:
 
-- [User Manual, Version 1.0](https://github.com/UniFeat/UniFeat.github.io/raw/main/docs/user_manual_v1.0.pdf)
+- [User Manual, Version 1.1](https://github.com/UniFeat/UniFeat.github.io/raw/main/docs/user_manual_v1.1.pdf)
 
 Moreover, the Javadoc is generated directly from the source code for API documentation and an overview of the project's classes and methods which is available at the following link:
 
-- [Javadoc](https://unifeat.github.io/docs/java-docs/v0.1.0/index.html)
+- [Javadoc](https://unifeat.github.io/docs/java-docs/v0.1.1/index.html)
 
