@@ -78,6 +78,12 @@ ul.social-links li a i {
   color: #222222;
 }
 
+a.disabled{
+  pointer-events: none!important;
+  cursor: default!important;
+  opacity: 0.3!important;
+}
+
 .shadow, .speakers.white .speaker-item:hover, .schedule.two .schedule-contents, .sponsors .block .image-block:hover, ul.pagination li a:hover, ul.pagination li a:focus, ul.pagination .active a, .news-hr .news-post-hr:hover, .testimonial .testimonial-item .comment:hover {
   box-shadow: 0px 0px 30px 0px rgba(11, 29, 66, 0.15);
 }
@@ -2684,12 +2690,12 @@ select.form-control:not([size]):not([multiple]) {
 
 .single-speaker .block .image-block {
   background: #fff;
-  border: 1px solid #e5e5e5;
   padding: 6px;
 }
 
 .single-speaker .block .image-block img {
   width: 100%;
+  border-radius: 50%;
 }
 
 @media (max-width: 767px) {
@@ -2708,6 +2714,15 @@ select.form-control:not([size]):not([multiple]) {
 
 .single-speaker .block .content-block .profession p {
   color: #ff6600;
+  font-size: 1.1rem;
+}
+
+.single-speaker .block .content-block .role {
+  margin-bottom: 10px;
+}
+
+.single-speaker .block .content-block .role p {
+  color: #888888;
   font-size: 0.9375rem;
 }
 

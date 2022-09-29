@@ -1,0 +1,38 @@
+[
+    {
+        "name" : "Sina Tabakhi",
+        "role" : "Senior Developer",
+        "position" : "PhD Student at the University of Sheffield",
+        "biography" : "Sina Tabakhi is currently a Ph.D. student in the Department of Computer Science at the University of Sheffield, United Kingdom, working in the Machine Learning Research Group. Before joining the University of Sheffield, he had worked in the industry as a software engineer for five years. He graduated with a Master’s degree as the first honor student in Computer Engineering, Artificial Intelligence from the University of Kurdistan, Iran. He has been working on efficient feature selection methods for integrative multi-omics analysis to tackle the curse of the dimensionality phenomenon of these data types.",
+        "homepage" : "https://sinatabakhi.github.io/",
+        "github" : "https://github.com/SinaTabakhi",
+        "linkedin": "https://uk.linkedin.com/in/sina-tabakhi",
+        "google_scholar": "https://scholar.google.com/citations?user=G6JSFp8AAAAJ&hl=en",
+        "unifeat_link": "sina-tabakhi",
+        "photo": "sina-tabakhi.jpg"
+    },
+    {
+        "name" : "Parham Moradi",
+        "role" : "Contributor",
+        "position" : "Associate Professor at the University of Kurdistan",
+        "biography" : "Parham Moradi received the M.Sc. and Ph.D. degrees in Computer Science from Amirkabir University of Technology, Iran, in 2005 and 2011, respectively. He conducted a part of his Ph.D. research work in the Laboratory of Nonlinear Systems, Ecole Polytechnique Federal de Lausanne (EPFL), Lausanne, Switzerland, from September 2009 to March 2010. He is currently an associate professor in the Department of Computer Engineering at the University of Kurdistan, Iran. His research focuses on machine learning, social network analysis, recommender systems, and deep learning.",
+        "homepage" : "https://research.uok.ac.ir/~pmoradi/en/",
+        "github" : "#",
+        "linkedin": "https://ir.linkedin.com/in/parham-moradi-7349abb",
+        "google_scholar": "https://scholar.google.com/citations?user=bR5ttrwAAAAJ&hl=en",
+        "unifeat_link": "parham-moradi",
+        "photo": "parham-moradi.jpg"
+    },
+    {
+        "name" : "Shahin Salavati",
+        "role" : "GUI Designer",
+        "position" : "Software Engineer at the University of Kurdistan",
+        "biography" : "",
+        "homepage" : "#",
+        "github" : "https://github.com/klpp",
+        "linkedin": "https://www.linkedin.com/in/shahin-salavati-217b1755/?originalSubdomain=ir",
+        "google_scholar": "https://scholar.google.com/citations?user=W12NBvYAAAAJ&hl=en",
+        "unifeat_link": "shahin-salavati",
+        "photo": "shahin-salavati.jpg"
+    }
+]
