@@ -1563,19 +1563,19 @@ select.form-control:not([size]):not([multiple]) {
 
 @media (max-width: 991px) {
   .schedule .schedule-contents .schedule-item ul li .dataset {
-    width: 40%;
+    width: 30%;
   }
 }
 
 @media (max-width: 767px) {
   .schedule .schedule-contents .schedule-item ul li .dataset {
-    width: 60%;
+    width: 35%;
   }
 }
 
 @media (max-width: 575px) {
   .schedule .schedule-contents .schedule-item ul li .dataset {
-    width: 50%;
+    width: 45%;
   }
 }
 
@@ -1606,12 +1606,6 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 @media (max-width: 991px) {
-  .schedule .schedule-contents .schedule-item ul li .nclass {
-    width: 18%;
-  }
-}
-
-@media (max-width: 767px) {
   .schedule .schedule-contents .schedule-item ul li .nclass {
     display: none;
   }
@@ -1647,9 +1641,21 @@ select.form-control:not([size]):not([multiple]) {
   width: 18%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 991px) {
   .schedule .schedule-contents .schedule-item ul li .formatlink {
-    display: none;
+    width: 30%;
+  }
+}
+
+@media (max-width: 767px) {
+  .schedule .schedule-contents .schedule-item ul li .formatlink {
+    width: 30%;
+  }
+}
+
+@media (max-width: 575px) {
+  .schedule .schedule-contents .schedule-item ul li .formatlink {
+    width: 40%;
   }
 }
 
