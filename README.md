@@ -8,6 +8,7 @@
 ![Website](https://img.shields.io/website?down_message=down&up_message=live&url=https%3A%2F%2Funifeat.github.io%2F)
 [![GitHub stars](https://img.shields.io/github/stars/UniFeat/UniFeat.github.io)](https://github.com/UniFeat/UniFeat.github.io/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/UniFeat/UniFeat.github.io)](https://github.com/UniFeat/UniFeat.github.io/network)
+[![DOI:10.1016/j.neucom.2023.03.037](https://zenodo.org/badge/DOI/10.1016/j.neucom.2023.03.037.svg)](https://doi.org/10.1016/j.neucom.2023.03.037)
 [![GitHub license](https://img.shields.io/github/license/UniFeat/UniFeat.github.io)](https://github.com/UniFeat/UniFeat.github.io/blob/main/LICENSE)
 
 # Universal Feature Selection Tool (UniFeat)
